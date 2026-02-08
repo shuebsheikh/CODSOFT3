@@ -377,7 +377,7 @@ footer {
         transform: translateY(-100%);
         opacity: 0;
         transition: all 0.3s ease;
-        z-index: 999;
+        z-index: -999;
     }
     
     .nav-menu.active {
@@ -421,4 +421,5 @@ footer {
     .service-card {
         padding: 20px;
     }
+
 }
